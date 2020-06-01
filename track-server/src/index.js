@@ -28,6 +28,6 @@ app.get('/', requireAuth, (req, res) => {
     res.send(`Your email: ${req.user.email}`);
 });
 
-app.listen(3300, () => {
+app.listen(5000, () => {
     console.log('Listening on port 3000')
 });
